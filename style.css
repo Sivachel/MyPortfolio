@@ -1,11 +1,28 @@
-.container{
+.container-fluid{
   /* background-color: blue; */
 }
 
 .navbar{
+  margin-bottom: 0px;
+
+}
+
+.jumbotron{
+  background-image: url("images/blacksand.png");
+  background-size: cover;
   margin: 0px;
 }
-.backgroundimage{
-  margin: 0px;
-  width
+.jumbotron h2{
+  color:#fff;
+}
+
+
+.profileimg{
+  margin: auto;
+  width: 70%;
+  display: block;
+  padding-top: 20px;
+}
+.container{
+  padding-left: 0px;
 }
