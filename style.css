@@ -25,6 +25,11 @@
    font-size: 80px;
    color: #740001;
  }
+ @media screen and (max-width:425px) {
+   #Logaraj{
+     font-size: 60px;
+   }
+ }
 
 .profileimg{
   margin: auto;
