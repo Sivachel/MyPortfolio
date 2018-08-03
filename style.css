@@ -1,10 +1,9 @@
 .container-fluid{
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .navbar{
   margin-bottom: 0px;
-
 }
 
 .jumbotron{
@@ -12,19 +11,23 @@
   background-size: cover;
   margin: 0px;
 }
+
 .jumbotron h2{
   color:#fff;
   border:2px solid white;
   background-color:#999999A5;
   border-radius: 10px;
 }
+
 .name{
   border: 5px;
 }
+
  #Logaraj{
    font-size: 80px;
    color: #740001;
  }
+
  @media screen and (max-width:425px) {
    #Logaraj{
      font-size: 60px;
@@ -40,12 +43,35 @@
 }
 
 #summary{
-  padding: 0 20px;
   color: white;
+  Padding: 0px 20px;
 }
+
+#summary h1{
+  color: #740001;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+
+
+
 #summaryprofile{
   background-color: rgb(85,85,85);
+  border: 2px solid white;
 }
+
 #Portfolio{
-  background-color: rgba(85,85,85,0.5)
+  background-color: #999999;
+  border: 2px solid white;
+}
+#Portfolio h1{
+  color: #740001;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+
+#Project{
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgba(85,85,85,0.3)
 }
