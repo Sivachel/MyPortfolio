@@ -1,5 +1,5 @@
 .container-fluid{
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 .navbar{
@@ -19,6 +19,7 @@
   border-radius: 10px;
 }
 
+
 .name{
   border: 5px;
 }
@@ -28,7 +29,7 @@
    color: #740001;
  }
 
- @media screen and (max-width:425px) {
+@media screen and (max-width:425px) {
    #Logaraj{
      font-size: 60px;
    }
@@ -64,6 +65,7 @@
   background-color: #999999;
   border: 2px solid white;
 }
+
 #Portfolio h1{
   color: #740001;
   background-color: rgba(255,255,255,0.5);
@@ -73,5 +75,17 @@
 #Project{
   border: 2px solid white;
   border-radius: 10px;
-  background-color: rgba(85,85,85,0.3)
+  background-color: rgba(85,85,85,0.3);
+  text-align: center;
+  color: white;
+}
+
+#Project h3{
+  color: #740001;
+}
+
+#Project img{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
