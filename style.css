@@ -1,5 +1,5 @@
 .container-fluid{
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 .navbar{
@@ -14,15 +14,30 @@
 }
 .jumbotron h2{
   color:#fff;
+  border:2px solid white;
+  background-color:#999999;
+  border-radius: 10px;
 }
-
+.name{
+  border: 5px;
+}
+ #Logaraj{
+   font-size: 80px;
+   color: #740001;
+ }
 
 .profileimg{
   margin: auto;
   width: 70%;
   display: block;
-  padding-top: 20px;
+  padding: 20px;
+  border-radius:50px;
 }
-.container{
-  padding-left: 0px;
+
+#summary{
+  padding: 0 20px;
+  color: white;
+}
+#summaryprofile{
+  background-color: rgb(85,85,85);
 }
