@@ -15,7 +15,7 @@
 .jumbotron h2{
   color:#fff;
   border:2px solid white;
-  background-color:#999999;
+  background-color:#999999A5;
   border-radius: 10px;
 }
 .name{
@@ -45,4 +45,7 @@
 }
 #summaryprofile{
   background-color: rgb(85,85,85);
+}
+#Portfolio{
+  background-color: rgba(85,85,85,0.5)
 }
