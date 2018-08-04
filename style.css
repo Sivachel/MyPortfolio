@@ -118,3 +118,20 @@
   background-color:#7F8C98;
   color: white;
 }
+
+#Contact{
+  background-color: #999999;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+#Contact h1{
+  color: #740001;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+
+#Icons{
+  text-align: center;
+  font-size: 50px;
+}
