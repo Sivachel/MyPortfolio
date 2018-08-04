@@ -1,5 +1,5 @@
 .container-fluid{
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .navbar{
@@ -88,4 +88,33 @@
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+#Technical {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgb(85,85,85);
+}
+
+#Technical h1{
+  color: #740001;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+
+.panel-title{
+  padding: 10px;
+  font-size: 1.5em;
+  background-color:#CACED2;
+}
+
+.tech1{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 5px;
+  display: inline-block;
+  background-color:#7F8C98;
+  color: white;
 }
