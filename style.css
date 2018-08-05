@@ -2,6 +2,10 @@
   /* background-color: blue; */
 }
 
+body{
+  font-family: 'Do Hyeon', sans-serif;
+}
+
 .navbar{
   margin-bottom: 0px;
 }
