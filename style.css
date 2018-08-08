@@ -1,0 +1,151 @@
+.container-fluid{
+  /* background-color: blue; */
+}
+
+body{
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  padding: 10px 15px;
+}
+
+.navbar-brand img{
+width:40px;
+border-radius: 10px;
+}
+
+#navcontents{
+  padding-right: 20px;
+}
+
+.jumbotron{
+  background-image: url("images/blacksand.png");
+  background-size: cover;
+  margin: 0px;
+}
+
+.jumbotron h2{
+  color:#fff;
+  border:2px solid white;
+  background-color:#999999A5;
+  border-radius: 10px;
+}
+
+.name{
+  border: 5px;
+}
+
+ #Logaraj{
+   font-size: 80px;
+   color: #740001;
+ }
+
+@media screen and (max-width:425px) {
+   #Logaraj{
+     font-size: 60px;
+   }
+ }
+
+.profileimg{
+  margin: auto;
+  width: 70%;
+  display: block;
+  padding: 20px;
+  border-radius:50px;
+}
+
+#summary{
+  color: white;
+  Padding: 0px 20px;
+}
+
+#summary h1{
+  color: #740001;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+
+#summaryprofile{
+  background-color: rgb(85,85,85);
+  border: 2px solid white;
+}
+
+#Portfolio{
+  background-color: #999999;
+  border: 2px solid white;
+}
+
+#Portfolio h1{
+  color: #740001;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+
+#Project{
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgba(85,85,85,0.3);
+  text-align: center;
+  color: white;
+}
+
+#Project h3{
+  color: #740001;
+}
+
+#Project img{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#Technical {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgb(85,85,85);
+}
+
+#Technical h1{
+  color: #740001;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+
+.panel-title{
+  padding: 10px;
+  font-size: 1.5em;
+  background-color:#CACED2;
+}
+
+.tech1{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 5px;
+  display: inline-block;
+  background-color:#7F8C98;
+  color: white;
+}
+
+#Contact{
+  background-color: #999999;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+#Contact h1{
+  color: #740001;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+
+#Icons{
+  text-align: center;
+  font-size: 50px;
+}
